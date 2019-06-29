@@ -182,7 +182,7 @@ library
   build-depends:       base >=4.6.0.1 && <5, hsroots, hayland, clock
   build-depends:       xkbcommon, containers, composition, time, directory
   build-depends:       unix, mtl, text, hsroots, process, transformers
-  build-depends:       config-schema, config-value, xdg-basedir, network
+  build-depends:       config-schema <1, config-value, xdg-basedir, network
   build-depends:       bytestring, data-default, semigroupoids, HFuse
   build-depends:       formatting, stm, unliftio-core, unliftio, libinput
   build-depends:       safe, deepseq, template-haskell
